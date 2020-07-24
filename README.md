@@ -1,18 +1,5 @@
 # Udacity - Write-A-Data-Science-Blog-Post
 
-
-- [Motivation for the project](#Motivation for the project)
-- [Business Understanding](#Business Understanding)
-- [Data Understanding](#Data Understanding)
-- [Prepare Data](#Prepare Data)
-- [Data Modeling](#Data Modeling)
-- [Conclusion](#Conclusion)
-- [File Structure](#File Structure)
-- [Medium Blog Post](#Medium Blog Post)
-- [Source Data](#Source Data)
-- [Libraries used](#Libraries used)
-
-   
 ## Motivation for the project
 Germany as a highly developed country with a very high standard of living, it offers social security and a universal health care system, environmental protections, and a tuition-free university education. You may have heard statements like "you can find a most stable job with high salary in Germany" or "woman can get same salary as man in Germany." Now, I would like to interpret these questions by analyzing data from Stackoverflow's 2017 Annual Developer Survey. 
   
