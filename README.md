@@ -22,19 +22,19 @@ Stack overflow logoThe survey data covers 64,000 reviews from 213 countries and
 - " Which of the following best describes your current employment status?"
 - " Which of the following best describes the highest level of formal education that you've completed?"
 
-## Business Understanding  
+## Business Understanding
 From Stackoverflow’s 2017 Annual Developer Survey, I am going to answer some questions:   
 - As a professional developer, who are the most educated people in Germany?  
 - What is the difference in terms of salary by gender in Germany?  
 - What aspects correlate well to career satisfaction?  
 
-## Data Understanding 
+## Data Understanding
 There were 19102 total survey records with 153 different features (excluding Respondent).
 - A little less than 20% professional developers have Master’s degree, and more than 13% people got Bachelor’s degree.
 - From the plot, we can learnt that man earned higher salary than woman with higher formal education. There is a big salary gap (~30000) in Doctoral degree.
 - Professional developer, job satisfaction shows high coefficient(>0.5) which would be high correlated to career satisfaction。
 
-## Prepare Data 
+## Prepare Data
 Loading data from survey_results_public.csv. To answer the first and second questions, we use pandas to slice the dataset into subsets.
 - We took German in Country, Professional developer in Professional, aggregate counts by FormalEducation, then plot the data. 
 - We took German in Country, Professional developer in Professional, aggregate counts by Gender and FormalEducation, then took the mean value of salary to plot it.
@@ -50,7 +50,7 @@ Then we used coefficient weights from LinearRegression.coef_ as indicator and pl
 2.We then looked at how different in terms of salary between male and female. This showed that male earn more in higher education and there is not too much correlation between higher education and salary for female.    
 3.Finally, we found that the people who had job with good communication and professional skill are usually satisfied with their careers .  
 
-## File Structure 
+## File Structure
 
 - UdacityL4.ipynb : Detail data analysis main file.
 - model_func.py : including find_optimal_lm_mod model optimization function and was called by UdacityL4.
